@@ -1,0 +1,29 @@
+{
+    "name": "karlhsu/think-closure-dispatch",
+    "description": "Laravel-style dispatch with closure support for ThinkPHP",
+    "type": "library",
+    "require": {
+      "php": ">=7.4",
+      "topthink/framework": "^6.0",
+      "opis/closure": "^3.6",
+      "nesbot/carbon": "^2.0",
+      "topthink/think-queue": "^3.0"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Karlhsu\\ClosureDispatch\\": "src/"
+      },
+      "files": [
+        "src/dispatch.php"
+      ]
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Tests\\": "tests/"
+      }
+    },
+    "license": "MIT"
+  }
