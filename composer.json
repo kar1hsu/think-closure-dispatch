@@ -2,6 +2,9 @@
     "name": "karlhsu/think-closure-dispatch",
     "description": "Laravel-style dispatch with closure support for ThinkPHP",
     "type": "library",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
       "php": ">=7.4",
       "topthink/framework": "^6.0",
