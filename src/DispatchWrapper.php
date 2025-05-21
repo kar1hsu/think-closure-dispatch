@@ -36,7 +36,7 @@ class DispatchWrapper
 
     public function push(): bool
     {
-        $queue = $this->queueInstance ?: new QueueFacade();
+        $queue = $this->queueInstance ?: app('queue');
         if ($this->job instanceof \Closure) {
             $closure = new SerializableClosure($this->job);
             $result = $queue->later(
